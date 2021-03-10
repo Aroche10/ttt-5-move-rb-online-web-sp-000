@@ -13,9 +13,16 @@ user_input = gets.strip
 
 puts "#{user_input[0]}"
 
+<<<<<<< HEAD
 first = input_to_index(user_input)
 
 
 move(board, first)
 
 display_board(board)
+=======
+def move(board, index, player = "X")
+  board[index] = player
+  puts "#{player}"
+end
+>>>>>>> c18e528e4c360a913f2fed6b52097bfb0636ddea
